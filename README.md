@@ -1,9 +1,3 @@
-<p align="center">
-    <br>
-    <img src="https://raw.githubusercontent.com/as-ideas/TransformerTTS/master/docs/transformer_logo.png" width="400"/>
-    <br>
-</p>
-
 <h2 align="center">
 <p>A Text-to-Speech Transformer in TensorFlow 2</p>
 </h2>
@@ -22,22 +16,6 @@ Being non-autoregressive, this Transformer model is:
 - Robust: No repeats and failed attention modes for challenging sentences.
 - Fast: With no autoregression, predictions take a fraction of the time.
 - Controllable: It is possible to control the speed of the generated utterance.
-
-## 🔈 Samples
-
-[Can be found here.](https://as-ideas.github.io/TransformerTTS/)
-
-These samples' spectrograms are converted using the pre-trained [WaveRNN](https://github.com/fatchord/WaveRNN) and [MelGAN](https://github.com/seungwonpark/melgan) vocoders.<br>
-
-
-Try it out on Colab:
-
-| Version | Colab Link |
-|---|---|
-| Forward + MelGAN | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/as-ideas/TransformerTTS/blob/master/notebooks/synthesize_forward_melgan.ipynb) |
-| Forward + WaveRNN | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/as-ideas/TransformerTTS/blob/master/notebooks/synthesize_forward_wavernn.ipynb) |
-| Autoregressive + MelGAN | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/as-ideas/TransformerTTS/blob/master/notebooks/synthesize_autoregressive_melgan.ipynb) |
-| Autoregressive + WaveRNN | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/as-ideas/TransformerTTS/blob/master/notebooks/synthesize_autoregressive_wavernn.ipynb) |
 
 ## Updates
 - 4/06/20: Added normalisation and pre-trained models compatible with the faster [MelGAN](https://github.com/seungwonpark/melgan) vocoder.
